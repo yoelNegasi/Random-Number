@@ -1,0 +1,58 @@
+#overall {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#top {
+  background-color: red;
+  height: 400px;
+  display: flex;
+  /* flex-direction: row; */
+}
+#bottom {
+  background-color: royalblue;
+  height: 250px;
+}
+#topLeft {
+  background-color: salmon;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#topRight {
+  background-color: silver;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  width: 20%;
+  height: 20%;
+  background-color: brown;
+  border-radius: 30%;
+}
+#btnReset {
+  align-self: flex-end;
+}
+#btnNew {
+  align-self: flex-end;
+}
+input {
+  height: 20%;
+  width: 30%;
+}
+.value {
+  height: 40%;
+}
+#bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#indicator {
+  background-color: yellow;
+  width: 50%;
+  height: 30%;
+  border-radius: 50%;
+}
