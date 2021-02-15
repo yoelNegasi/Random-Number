@@ -10,26 +10,33 @@
     <div id="overall">
       <h1>Random number Game</h1>
       <div id="top">
-        <div id="topLeft">
-          <button id="btnReset" class="btn reset">reset</button>
-          <input type="text" />
-          <button id="btnSubmit" class="btn submit">submit</button>
-          <button id="btnNew" class="btn new">new number</button>
+        <div class="all" id="topLeft">
+          <button id="btnReset" class="btn reset">
+            <h2>
+              change number <br />
+              ?
+            </h2>
+          </button>
+
+          <input id="guess" type="number" />
+          <h1 id="title">GUESS A NUMBER BETWEEN 1 - 100</h1>
+          <button id="btnSubmit" class="btn submit"><h2>submit</h2></button>
+          <button id="btnNew" class="btn new"><h2>Restart Game</h2></button>
         </div>
-        <div id="topRight">
+        <div class="all" id="topRight">
           <div>
-            <h2>score</h2>
-            <input class="value" type="text" /><br />
+            <h1>score</h1>
+            <div class="value" id="score"><h1>0</h1></div>
           </div>
           <br /><br />
           <div>
-            <h2>number of tries</h2>
-            <input class="value" type="text" />
+            <h1>number of tries</h1>
+            <div class="value" id="tries"><h1>0</h1></div>
           </div>
         </div>
       </div>
-      <div id="bottom">
-        <div id="indicator"><h1>Game indicator</h1></div>
+      <div class="all" id="bottom">
+        <div id="indicator"><h1 id="ind">Game indicator</h1></div>
       </div>
     </div>
     <script src="script.js"></script>

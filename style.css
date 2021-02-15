@@ -4,24 +4,22 @@
   text-align: center;
 }
 #top {
-  background-color: red;
   height: 400px;
   display: flex;
-  /* flex-direction: row; */
 }
 #bottom {
-  background-color: royalblue;
+  background-color: rgb(91, 141, 250);
   height: 250px;
 }
 #topLeft {
-  background-color: salmon;
+  background-color: rgb(120, 168, 230);
   flex-grow: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 #topRight {
-  background-color: silver;
+  background-color: rgb(103, 80, 202);
   flex-grow: 2;
   display: flex;
   flex-direction: column;
@@ -29,8 +27,9 @@
 .btn {
   width: 20%;
   height: 20%;
-  background-color: brown;
+  background-color: rgb(40, 105, 149);
   border-radius: 30%;
+  cursor: pointer;
 }
 #btnReset {
   align-self: flex-end;
@@ -53,6 +52,16 @@ input {
 #indicator {
   background-color: yellow;
   width: 50%;
-  height: 30%;
-  border-radius: 50%;
+  height: 60%;
+  border-radius: 100%;
+}
+#guess {
+  font-size: 2.1rem;
+  border-radius: 20%;
+}
+#title {
+  align-self: flex-start;
+}
+h2 {
+  color: rgb(0, 204, 255);
 }
