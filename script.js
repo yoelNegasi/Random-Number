@@ -1,6 +1,5 @@
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
 
-//document.getElementById("indicator").textContent = secretNumber;
 let tries = 0;
 let score = 0;
 
